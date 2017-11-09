@@ -54,45 +54,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm1
+CMAKE_SOURCE_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm_MSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/ex_algorithm1_stair.dir
+# Target rules for target CMakeFiles/ex_algorithm.out.dir
 
 # All Build rule for target.
-CMakeFiles/ex_algorithm1_stair.dir/all:
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/depend
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ex_algorithm1_stair"
-.PHONY : CMakeFiles/ex_algorithm1_stair.dir/all
+CMakeFiles/ex_algorithm.out.dir/all:
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/depend
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ex_algorithm.out"
+.PHONY : CMakeFiles/ex_algorithm.out.dir/all
 
 # Include target in all.
-all: CMakeFiles/ex_algorithm1_stair.dir/all
+all: CMakeFiles/ex_algorithm.out.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ex_algorithm1_stair.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex_algorithm1_stair.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ex_algorithm1_stair.dir/rule
+CMakeFiles/ex_algorithm.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex_algorithm.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ex_algorithm.out.dir/rule
 
 # Convenience name for target.
-ex_algorithm1_stair: CMakeFiles/ex_algorithm1_stair.dir/rule
+ex_algorithm.out: CMakeFiles/ex_algorithm.out.dir/rule
 
-.PHONY : ex_algorithm1_stair
-
-# clean rule for target.
-CMakeFiles/ex_algorithm1_stair.dir/clean:
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/clean
-.PHONY : CMakeFiles/ex_algorithm1_stair.dir/clean
+.PHONY : ex_algorithm.out
 
 # clean rule for target.
-clean: CMakeFiles/ex_algorithm1_stair.dir/clean
+CMakeFiles/ex_algorithm.out.dir/clean:
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/clean
+.PHONY : CMakeFiles/ex_algorithm.out.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ex_algorithm.out.dir/clean
 
 .PHONY : clean
 

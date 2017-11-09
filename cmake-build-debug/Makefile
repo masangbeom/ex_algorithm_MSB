@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm1
+CMAKE_SOURCE_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm_MSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex_algorithm1_stair
+# Target rules for targets named ex_algorithm.out
 
 # Build rule for target.
-ex_algorithm1_stair: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ex_algorithm1_stair
-.PHONY : ex_algorithm1_stair
+ex_algorithm.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex_algorithm.out
+.PHONY : ex_algorithm.out
 
 # fast build rule for target.
-ex_algorithm1_stair/fast:
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/build
-.PHONY : ex_algorithm1_stair/fast
+ex_algorithm.out/fast:
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/build
+.PHONY : ex_algorithm.out/fast
 
-main.o: main.cpp.o
+numOfPaper_1780.o: numOfPaper_1780.cpp.o
 
-.PHONY : main.o
+.PHONY : numOfPaper_1780.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o
-.PHONY : main.cpp.o
+numOfPaper_1780.cpp.o:
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/numOfPaper_1780.cpp.o
+.PHONY : numOfPaper_1780.cpp.o
 
-main.i: main.cpp.i
+numOfPaper_1780.i: numOfPaper_1780.cpp.i
 
-.PHONY : main.i
+.PHONY : numOfPaper_1780.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/main.cpp.i
-.PHONY : main.cpp.i
+numOfPaper_1780.cpp.i:
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/numOfPaper_1780.cpp.i
+.PHONY : numOfPaper_1780.cpp.i
 
-main.s: main.cpp.s
+numOfPaper_1780.s: numOfPaper_1780.cpp.s
 
-.PHONY : main.s
+.PHONY : numOfPaper_1780.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/main.cpp.s
-.PHONY : main.cpp.s
+numOfPaper_1780.cpp.s:
+	$(MAKE) -f CMakeFiles/ex_algorithm.out.dir/build.make CMakeFiles/ex_algorithm.out.dir/numOfPaper_1780.cpp.s
+.PHONY : numOfPaper_1780.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ex_algorithm1_stair"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ex_algorithm.out"
+	@echo "... numOfPaper_1780.o"
+	@echo "... numOfPaper_1780.i"
+	@echo "... numOfPaper_1780.s"
 .PHONY : help
 
 

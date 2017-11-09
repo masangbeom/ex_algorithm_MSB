@@ -48,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ex_algorithm1_stair.dir/DependInfo.cmake"
+  "CMakeFiles/ex_algorithm.out.dir/DependInfo.cmake"
   )

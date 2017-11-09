@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm1
+CMAKE_SOURCE_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm_MSB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex_algorithm1_stair.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/ex_algorithm1_stair.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex_algorithm1_stair.dir/flags.make
 
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o: CMakeFiles/ex_algorithm1_stair.dir/flags.make
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o -c /Users/sangbeomma/CLionProjects/ex_algorithm1/main.cpp
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o: CMakeFiles/ex_algorithm1_stair.dir/flags.make
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o: ../numOfPaper_1780.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o -c /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/numOfPaper_1780.cpp
 
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_algorithm1_stair.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sangbeomma/CLionProjects/ex_algorithm1/main.cpp > CMakeFiles/ex_algorithm1_stair.dir/main.cpp.i
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/numOfPaper_1780.cpp > CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.i
 
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_algorithm1_stair.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sangbeomma/CLionProjects/ex_algorithm1/main.cpp -o CMakeFiles/ex_algorithm1_stair.dir/main.cpp.s
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/numOfPaper_1780.cpp -o CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.s
 
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.requires:
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.requires:
 
-.PHONY : CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.requires
 
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.provides: CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.provides
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.provides: CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex_algorithm1_stair.dir/build.make CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.provides.build
+.PHONY : CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.provides
 
-CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.provides.build: CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o
+CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.provides.build: CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o
 
 
 # Object files for target ex_algorithm1_stair
 ex_algorithm1_stair_OBJECTS = \
-"CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o"
+"CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o"
 
 # External object files for target ex_algorithm1_stair
 ex_algorithm1_stair_EXTERNAL_OBJECTS =
 
-ex_algorithm1_stair: CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o
+ex_algorithm1_stair: CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o
 ex_algorithm1_stair: CMakeFiles/ex_algorithm1_stair.dir/build.make
 ex_algorithm1_stair: CMakeFiles/ex_algorithm1_stair.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ex_algorithm1_stair"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ex_algorithm1_stair"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_algorithm1_stair.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/ex_algorithm1_stair.dir/build: ex_algorithm1_stair
 
 .PHONY : CMakeFiles/ex_algorithm1_stair.dir/build
 
-CMakeFiles/ex_algorithm1_stair.dir/requires: CMakeFiles/ex_algorithm1_stair.dir/main.cpp.o.requires
+CMakeFiles/ex_algorithm1_stair.dir/requires: CMakeFiles/ex_algorithm1_stair.dir/numOfPaper_1780.cpp.o.requires
 
 .PHONY : CMakeFiles/ex_algorithm1_stair.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/ex_algorithm1_stair.dir/clean:
 .PHONY : CMakeFiles/ex_algorithm1_stair.dir/clean
 
 CMakeFiles/ex_algorithm1_stair.dir/depend:
-	cd /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sangbeomma/CLionProjects/ex_algorithm1 /Users/sangbeomma/CLionProjects/ex_algorithm1 /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug /Users/sangbeomma/CLionProjects/ex_algorithm1/cmake-build-debug/CMakeFiles/ex_algorithm1_stair.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sangbeomma/CLionProjects/ex_algorithm_MSB /Users/sangbeomma/CLionProjects/ex_algorithm_MSB /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug /Users/sangbeomma/CLionProjects/ex_algorithm_MSB/cmake-build-debug/CMakeFiles/ex_algorithm1_stair.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex_algorithm1_stair.dir/depend
 
