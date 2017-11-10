@@ -3,5 +3,5 @@ project(ex_algorithm_MSB)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES numOfPaper_1780.cpp)
+set(SOURCE_FILES echinso_2193.cpp)
 add_executable(ex_algorithm.out ${SOURCE_FILES})

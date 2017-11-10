@@ -25,10 +25,7 @@ void plusDP(int num){
 }
 int divide(int x, int y, int N) {
     int check = -1;
-    if(N==1){
-
-    }
-    else if(N==3){
+    if(N==3){
         for(int i = 0; i<3; i++){
             for(int j = 0; j<3; j++){
                 if(arr[x][y] != arr[x+i][y+j]) {
